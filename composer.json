@@ -1,0 +1,81 @@
+{
+    "packages": {
+        "taxjar/module-taxjar": {
+            "0.7.6": {
+                "name": "taxjar/module-taxjar",
+                "version": "0.7.6",
+                "version_normalized": "0.7.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Ravi31/taxtax.git",
+                    "reference": "e05fdd1127a08ef9004138e45e6d9b2fb7719dda"
+                },
+                "dist": {
+                    "type": "tar",
+                    "url": "https://packagist.magentomobileshop.com/repo/dist/taxjar/module-taxjar/taxjar-module-taxjar-e05fdd1127a08ef9004138e45e6d9b2fb7719dda-zip-8a4f9b.tar",
+                    "reference": "e05fdd1127a08ef9004138e45e6d9b2fb7719dda",
+                    "shasum": "88f8880d43f672b4eb2647febc8e4ae0a0e84811"
+                },
+                "require": {
+                    "magento/framework": "^100.1.0|^101.0.0"
+                },
+                "time": "2017-12-13T14:19:11+00:00",
+                "type": "magento2-module",
+                "installation-source": "dist",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Taxjar\\SalesTax\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "TaxJar Sales Tax Module for Magento 2",
+                "support": {
+                    "source": "https://github.com/Ravi31/taxtax/tree/master",
+                    "issues": "https://github.com/Ravi31/taxtax/issues"
+                }
+            },
+            "dev-master": {
+                "name": "taxjar/module-taxjar",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/Ravi31/taxtax.git",
+                    "reference": "e05fdd1127a08ef9004138e45e6d9b2fb7719dda"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/Ravi31/taxtax/zipball/e05fdd1127a08ef9004138e45e6d9b2fb7719dda",
+                    "reference": "e05fdd1127a08ef9004138e45e6d9b2fb7719dda",
+                    "shasum": ""
+                },
+                "require": {
+                    "magento/framework": "^100.1.0|^101.0.0"
+                },
+                "time": "2017-12-13T14:19:11+00:00",
+                "type": "magento2-module",
+                "autoload": {
+                    "files": [
+                        "registration.php"
+                    ],
+                    "psr-4": {
+                        "Taxjar\\SalesTax\\": ""
+                    }
+                },
+                "license": [
+                    "OSL-3.0"
+                ],
+                "description": "TaxJar Sales Tax Module for Magento 2",
+                "support": {
+                    "source": "https://github.com/Ravi31/taxtax/tree/master",
+                    "issues": "https://github.com/Ravi31/taxtax/issues"
+                }
+            }
+        }
+    }
+}
